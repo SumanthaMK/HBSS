@@ -1,0 +1,92 @@
+/* Add or adjust styles as needed */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3494e6, #ec6ead); /* Gradient background */
+    color: #fff; /* Text color for the entire page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    color: #3494e6; /* Text color for the header */
+    font-size: 24px; /* Increase font size */
+}
+
+.balloons {
+    width: 100%; /* Use 100% width to prevent cropping */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 400px; /* Limit maximum width to 400px for styling */
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transition: transform 1s ease-in-out;
+}
+
+.cake {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transition: transform 1s ease-in-out;
+}
+
+.cake {
+    display: none;
+}
+
+.text-wishes {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    display: none;
+}
+
+.text-wishes p {
+    color: #2c3e50; /* Dark color for the paragraph message */
+    font-weight: bold; /* Bold text */
+}
+
+/* Center buttons */
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin: 15px; /* Add margin for spacing */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d754a7; /* Darker pink on hover */
+}
+
+#playButton {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
