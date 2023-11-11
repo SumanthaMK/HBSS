@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Happy Birthday, Shree!</h1>
+    </header>
+    <div class="content">
+        <div>
+        <button id="playButton" onclick="playMusic()">Play Birthday Song</button>
+        </div>
+        <div>
+            <button id="pinButton" onclick="startBlastAnimation()">Click on the Baloon</button>
+        </div>
+        <div>
+        <img src="balloons.png" alt="Balloons" class="balloons" id="balloonImage" onclick="startBlastAnimation()">
+        </div>
+        <img src="cake.jpg" alt="Cake" class="cake" id="cakeImage">
+        <div class="text-wishes" id="textWishes">
+            <p>Dear Shree,</p>
+            <p>On your special day, I want to take a moment to express my deepest gratitude for the incredible support you've given me throughout our journey together. Your unwavering emotional support has been a guiding light, helping me navigate through both joyous moments and challenging times.</p>
+            <p>Your kindness, empathy, and understanding have made a profound impact on my life, and I am truly blessed to have you as a friend. Your ability to provide comfort and encouragement has been a source of strength, and I can't thank you enough for being there, always.</p>
+            <p>As you celebrate another year of life, I wish you boundless happiness, genuine smiles, and a heart full of the same warmth you've shared with me. May this year bring you all the love and joy you've selflessly given to others.</p>
+            <p>Happy Birthday, dear friend! May your day be as extraordinary as the support you've given me.</p>
+            <p>With heartfelt appreciation and warmest wishes,</p>
+            <p>Sumanth</p>
+        </div>
+        <audio id="birthdayAudio" src="happy_birthday.aac" type="audio/aac"></audio>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
